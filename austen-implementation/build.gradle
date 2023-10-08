@@ -1,0 +1,5 @@
+dependencies {
+    api project(':austen-api')
+
+    testImplementation project(':tck-adapter')
+}

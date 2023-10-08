@@ -1,0 +1,30 @@
+plugins {
+    id 'java-library'
+}
+
+group = 'org.eclipse.asciidoc'
+
+subprojects {
+    apply plugin: 'java-library'
+
+    repositories {
+        mavenCentral()
+    }
+
+    dependencies {
+        testImplementation platform('org.junit:junit-bom:5.10.0')
+        testImplementation "org.junit.jupiter:junit-jupiter"
+        testImplementation 'org.assertj:assertj-core:3.24.2'
+    }
+
+    java {
+        toolchain {
+            languageVersion = JavaLanguageVersion.of(17)
+        }
+    }
+
+    tasks.named('test') {
+        useJUnitPlatform()
+    }
+}
+

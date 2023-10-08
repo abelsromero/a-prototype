@@ -1,0 +1,11 @@
+plugins {
+    id 'application'
+}
+
+dependencies {
+    implementation project(':austen-implementation')
+}
+
+application {
+    mainClass = 'org.eclipse.asciidoc.austen.cli.App'
+}

@@ -1,0 +1,8 @@
+rootProject.name = 'austen'
+
+include(
+        'austen-api',
+        'austen-implementation',
+        'cli',
+        'tck-adapter'
+)
