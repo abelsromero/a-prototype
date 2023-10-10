@@ -1,4 +1,4 @@
-package org.eclipse.asciidoc.austen.cli;
+package org.eclipse.austen.cli;
 
 import org.junit.jupiter.api.Test;
 

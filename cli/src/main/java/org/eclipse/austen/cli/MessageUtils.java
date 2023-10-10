@@ -1,4 +1,4 @@
-package org.eclipse.asciidoc.austen.cli;
+package org.eclipse.austen.cli;
 
 class MessageUtils {
     static String getMessage() {

@@ -1,5 +1,5 @@
 
-package org.eclipse.asciidoc.austen.cli;
+package org.eclipse.austen.cli;
 
 
 public class App {
